@@ -1,3 +1,9 @@
+commit aa32881d496b1eebea37bf54acf0d00cec0bcdba
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Fri Jan 10 15:38:09 2020 -0500
+
+    cambiamos tener una rama limpia sin los archivos anteriores del proyecto anterior
+
 commit 2710aebfafdaca01d2b4f9bf1a16b0b10395cfd2
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Fri Jan 10 15:30:46 2020 -0500
