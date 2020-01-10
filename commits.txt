@@ -1,11 +1,5 @@
-commit c9a26c61ae5ac4e4fd7ebf686daee8f8272c4bb6
+commit 2710aebfafdaca01d2b4f9bf1a16b0b10395cfd2
 Author: iblurdesigner <nevomen@gmail.com>
-Date:   Sun Nov 10 17:29:48 2019 -0500
+Date:   Fri Jan 10 15:30:46 2020 -0500
 
-    maquetacion hecha de BadgeNew y Badges
-
-commit 804dfe14284d69a4f5fff20bb1c963310831dd53
-Author: iblurdesigner <nevomen@gmail.com>
-Date:   Thu Nov 7 11:27:23 2019 -0500
-
-    Initial commit from Create React App
+    configuracion modo produccion
