@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import { Link } from 'react-router-dom'
-import inicioImg from '../images/inicio.jpg'
+import inicioImg from '../images/inicio.png'
 
 class Inicio extends Component {
     render() {
