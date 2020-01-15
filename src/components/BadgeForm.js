@@ -39,7 +39,7 @@ class BadgeForm extends React.Component {
             <div>
                 <form onSubmit={ this.props.onSubmit }>
                     <div className="form-group">
-                        <label>Nombres</label>
+                        <label arial-label="Nombres">Nombres</label>
                         <input 
                             onChange={this.props.onChange}
                             className="form-control"
@@ -48,7 +48,7 @@ class BadgeForm extends React.Component {
                             value={this.props.formValues.firstName}  //valores controladados
                         />
                         
-                        <label>Apellidos</label>
+                        <label arial-label="Apellidos">Apellidos</label>
                         <input 
                             onChange={this.props.onChange}
                             className="form-control"
@@ -57,7 +57,7 @@ class BadgeForm extends React.Component {
                             value={this.props.formValues.lastName}
                         />
                         
-                        <label>Correo</label>
+                        <label arial-label="Correo">Correo</label>
                         <input
                             onChange={this.props.onChange}
                             className="form-control"
@@ -66,7 +66,7 @@ class BadgeForm extends React.Component {
                             value={this.props.formValues.mail}
                         />
                         
-                        <label>Dirección</label>
+                        <label arial-label="Dirección">Dirección</label>
                         <input
                             onChange={this.props.onChange}
                             className="form-control"
@@ -75,7 +75,7 @@ class BadgeForm extends React.Component {
                             value={this.props.formValues.address}  
                         />
                         
-                        <label>Nacionalidad</label>
+                        <label arial-label="Nacionalidad">Nacionalidad</label>
                         <input
                             onChange={this.props.onChange}
                             className="form-control"
@@ -84,7 +84,7 @@ class BadgeForm extends React.Component {
                             value={this.props.formValues.nacionalidad}  
                         />
                         
-                        <label>Cédula</label>
+                        <label arial-label="Cédula">Cédula</label>
                         <input
                             onChange={this.props.onChange}
                             className="form-control"
@@ -93,7 +93,7 @@ class BadgeForm extends React.Component {
                             value={this.props.formValues.cedula}  
                         />
                         
-                        <label>Talleres</label>
+                        <label arial-label="Talleres">Talleres</label>
                         <div className="form-group">
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Turismo Sierra" 
@@ -101,7 +101,7 @@ class BadgeForm extends React.Component {
                                     name="talleres"
                                     value={this.props.formValues.talleres}  
                                     />
-                                <label class="form-check-label" for="inlineCheckbox1">Turismo Sierra</label>
+                                <label arial-label="Turismo Sierra" class="form-check-label" for="inlineCheckbox1">Turismo Sierra</label>
                             </div>
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="Turismo Costa" 
@@ -109,14 +109,14 @@ class BadgeForm extends React.Component {
                                     name="talleres"
                                     value={this.props.formValues.talleres}  
                                 />
-                                <label class="form-check-label" for="inlineCheckbox2">Turismo Costa</label>
+                                <label arial-label="Turismo Costa" class="form-check-label" for="inlineCheckbox2">Turismo Costa</label>
                             </div>
                         </div>
                         
-                        <label>Curso</label>
+                        <label arial-label="Curso">Curso</label>
                         <div className="input-group mb-3">
                             <div className="input-group-prepend">
-                                <label className="input-group-text" for="inputGroupSelect01">Opciones</label>
+                                <label arial-label="Opciones" className="input-group-text" for="inputGroupSelect01">Opciones</label>
                             </div>
                             <select className="custom-select" id="inputGroupSelect01"
                                 onChange={this.props.onChange}

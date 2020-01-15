@@ -8,8 +8,8 @@ class Lunes extends Component {
         return (
             <div className="row separacion">
                     <div className="col-sm-12 col-md-6">
-                        <h3>Agenda de la mañana</h3>
-                        <div>
+                        <h3 tabIndex="0">Agenda de la mañana</h3>
+                        <div tabIndex="0">
                             10:00. Identificación y registro.<br /> <br />
 
                             10:30. Apertura Congreso por D. José Ramón Castiñeira, Director General de Turismo de la Comunidad Autónoma de Madrid.<br /><br />
@@ -32,9 +32,9 @@ class Lunes extends Component {
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-6">
-                        <h2>Agenda de la tarde</h2>
+                        <h2 tabIndex="0">Agenda de la tarde</h2>
                             <div>
-                                <p>
+                                <p tabIndex="0">
                                     15:30. Presentación del Salón de Innovación Hostelera en Málaga.<br /><br />
 
                                     15:50. La importancia del Cross Selling. Alejandro Soria. CEO de Cohosting.<br /><br />
@@ -59,8 +59,8 @@ class Martes extends Component {
         return (
             <div className="row separacion">
                     <div className="col-sm-12 col-md-6">
-                        <h3>Agenda de la mañana</h3>
-                        <div>
+                        <h3 tabIndex="0">Agenda de la mañana</h3>
+                        <div tabIndex="0">
                             10:00. Identificación y registro.<br /> <br />
 
                             10:30. Apertura Congreso por D. Francisco Zuñiga, Director General de Turismo de la Comunidad Autónoma de Barcelona.<br /><br />
@@ -83,9 +83,9 @@ class Martes extends Component {
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-6">
-                        <h2>Agenda de la tarde</h2>
+                        <h2 tabIndex="0">Agenda de la tarde</h2>
                             <div>
-                                <p>
+                                <p tabIndex="0">
                                     15:30. Presentación del Salón de Innovación Hostelera en Málaga.<br /><br />
 
                                     15:50. La importancia del Cross Selling. Alejandro Soria. CEO de Cohosting.<br /><br />
@@ -110,8 +110,8 @@ class Miercoles extends Component {
         return (
             <div className="row separacion">
                     <div className="col-sm-12 col-md-6">
-                        <h3>Agenda de la mañana</h3>
-                        <div>
+                        <h3> tabIndex="0"Agenda de la mañana</h3>
+                        <div tabIndex="0">
                             10:00. Identificación y registro.<br /> <br />
 
                             10:30. Apertura Congreso por D. José Ramón Castiñeira, Director General de Turismo de la Comunidad Autónoma de Madrid.<br /><br />
@@ -134,9 +134,9 @@ class Miercoles extends Component {
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-6">
-                        <h2>Agenda de la tarde</h2>
+                        <h2 tabIndex="0">Agenda de la tarde</h2>
                             <div>
-                                <p>
+                                <p tabIndex="0">
                                     15:30. Presentación del Salón de Innovación Hostelera en Málaga.<br /><br />
 
                                     15:50. La importancia del Cross Selling. Alejandro Soria. CEO de Cohosting.<br /><br />
@@ -156,13 +156,13 @@ class Agenda extends Component {
     render(){
         return (
             <div className="container separacion">
-                <h1>Agenda</h1>
+                <h1 tabIndex="0">Agenda</h1>
                 
                 <div className="accordion" id="accordionExample">
                     <div className="card">
                         <div className="card-header" id="headingOne">
                         <h2 className="mb-0">
-                            <button className="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <button tabIndex="0" className="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                             Lunes
                             </button>
                         </h2>
@@ -177,7 +177,7 @@ class Agenda extends Component {
                     <div className="card">
                         <div className="card-header" id="headingTwo">
                         <h2 className="mb-0">
-                            <button className="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <button tabIndex="0" className="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             Martes
                             </button>
                         </h2>
@@ -191,7 +191,7 @@ class Agenda extends Component {
                     <div className="card">
                         <div className="card-header" id="headingThree">
                         <h2 className="mb-0">
-                            <button className="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <button tabIndex="0" className="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             Miércoles
                             </button>
                         </h2>
